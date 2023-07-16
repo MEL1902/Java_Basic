@@ -9,7 +9,7 @@ public class ArrayReferenceObjectExample {
 
         System.out.println( strArray[0] == strArray[1]);
         System.out.println( strArray[0] == strArray[2]);
-        System.out.println( strArray[0].equals(strArray[2]) );
+        System.out.println( strArray[0].equals(strArray[2]) ); //텍스트값 "JAVA"는 동일하기에
     }
 
 }
