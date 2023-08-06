@@ -13,7 +13,7 @@ public class Main {
 
             if(M < 45) {
 
-                H --;
+                H --;  //-- 는 1 빼기
                 M = 60-(45 - M);
 
                 if(H < 0) {
@@ -23,5 +23,5 @@ public class Main {
             } else {
                 System.out.println(H + " " + (M - 45));
             }
+        }
     }
-}
