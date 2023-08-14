@@ -55,7 +55,9 @@ public class Main {
                 }
                 //b 가 c랑 같은 경우
                 else {
+
                     System.out.println(1000 + b * 100);
+
                 }
             }
         }
