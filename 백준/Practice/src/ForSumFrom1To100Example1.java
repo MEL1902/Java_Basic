@@ -3,10 +3,11 @@ public class ForSumFrom1To100Example1 {
 
         int sum = 0;
 
-        for(int i=1; i<=100; i++) {
+        int i;
+        for(i=1; i<=100; i++) {
             sum += i;
 
-            System.out.println("1~100합: " + sum);
+            System.out.println("1~" + (i-1) + "합: " + sum);
         }
     }
 }
